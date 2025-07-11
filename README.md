@@ -51,7 +51,7 @@ yarn install
 # Add your API key
 touch .env.local
 echo "PAGE_SPEED_EVALUATOR_BACKEND_API_URL=https://www.googleapis.com/pagespeedonline/v5/runPagespeed" >> .env.local
-echo "GOOGLE_API_KEY=your-api-key-here" >> .env.local
+echo "NEXT_PUBLIC_PAGE_SPEED_EVALUATOR_API_KEY=your-api-key-here" >> .env.local
 
 # Run the app
 yarn dev
